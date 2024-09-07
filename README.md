@@ -4,7 +4,7 @@
 
 只需 1 分钟即可完成内容网站的后端！！！大家还可以在此基础上快速开发自己的项目。
 
-模板前置操作
+#### 模板前置操作
 
 ctrl + shift + r 全局替换
 springboot-init -> oj-backend
@@ -87,9 +87,9 @@ yupi.springbootinit -> web.oj   springbootinit -> oj
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
+    url: jdbc:mysql://localhost:3306/dboj
     username: root
-    password: 123456
+    password: 123qwe
 ```
 
 2）执行 `sql/create_table.sql` 中的数据库语句，自动创建库表

@@ -1,12 +1,10 @@
 # 数据库初始化
-# @author <a href="https://github.com/liweb">程序员鱼皮</a>
-# @from <a href="https://web.icu">编程导航知识星球</a>
 
 -- 创建库
-create database if not exists my_db;
+create database if not exists dboj;
 
 -- 切换库
-use my_db;
+use dboj;
 
 -- 用户表
 create table if not exists user

@@ -26,8 +26,6 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * 文件接口
  *
- * @author <a href="https://github.com/liweb">程序员鱼皮</a>
- * @from <a href="https://web.icu">编程导航知识星球</a>
  */
 @RestController
 @RequestMapping("/file")
@@ -71,7 +69,7 @@ public class FileController {
             // 返回可访问地址
             return ResultUtils.success(FileConstant.COS_HOST + filepath);
         } catch (Exception e) {
-            log.error("file upload error, filepath = " + filepath, e);
+            log.error("file upload error, filepath = {}", filepath, e);
             throw new BusinessException(ErrorCode.SYSTEM_ERROR, "上传失败");
         } finally {
             if (file != null) {
