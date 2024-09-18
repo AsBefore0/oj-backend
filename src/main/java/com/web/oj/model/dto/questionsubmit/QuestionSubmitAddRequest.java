@@ -1,11 +1,8 @@
 package com.web.oj.model.dto.questionsubmit;
 
-import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
-
 import java.io.Serializable;
-import java.util.Date;
-import java.util.List;
+
 
 /**
  * 创建请求

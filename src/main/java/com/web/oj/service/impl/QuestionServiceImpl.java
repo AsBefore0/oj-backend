@@ -47,7 +47,6 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
         if (question == null) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
-        Long id = question.getId();
         String title = question.getTitle();
         String content = question.getContent();
         String tags = question.getTags();
