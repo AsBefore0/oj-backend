@@ -35,3 +35,6 @@ knife4j:
     enable: true
     username: root
     password: 123456
+# 代码沙箱配置
+codesandbox:
+  type: example
